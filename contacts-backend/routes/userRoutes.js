@@ -16,3 +16,5 @@ router.post("/login" , (req , res) =>{
 router.post("/current" , (req , res) => {
     res.json({message : "Current user information"});
 });
+
+module.exports = router;
