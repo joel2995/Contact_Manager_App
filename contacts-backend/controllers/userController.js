@@ -22,7 +22,7 @@ const loginUser = asyncHandler(async(req , res) =>{
 
 
 //@desc Current user info
-//@route POST /api/users/login
+//@route POST /api/users/current
 //@access private 
 
 
