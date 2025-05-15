@@ -1,6 +1,6 @@
 const asyncHandler = require("express-async-handler");
 
-//@desc Register a user
+//@desc Register user
 //@route POST /api/users/register
 //@access public 
 
@@ -10,7 +10,7 @@ const registerUser = asyncHandler(async(req , res) =>{
 
 });
 
-//@desc Login a user
+//@desc Login user
 //@route POST /api/users/login
 //@access public 
 
@@ -21,7 +21,7 @@ const loginUser = asyncHandler(async(req , res) =>{
 });
 
 
-//@desc Login a user
+//@desc Current user info
 //@route POST /api/users/login
 //@access public 
 
