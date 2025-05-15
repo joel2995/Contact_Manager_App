@@ -21,6 +21,19 @@ const loginUser = asyncHandler(async(req , res) =>{
 });
 
 
+//@desc Login a user
+//@route POST /api/users/login
+//@access public 
+
+
+const loginUser = asyncHandler(async(req , res) =>{
+    res.json({message : "Login the user"});
+
+});
+
+
+
+
 
 
 
