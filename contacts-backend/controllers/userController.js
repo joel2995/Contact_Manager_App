@@ -23,7 +23,7 @@ const loginUser = asyncHandler(async(req , res) =>{
 
 //@desc Current user info
 //@route POST /api/users/login
-//@access public 
+//@access private 
 
 
 const loginUser = asyncHandler(async(req , res) =>{
