@@ -26,8 +26,8 @@ const loginUser = asyncHandler(async(req , res) =>{
 //@access private 
 
 
-const loginUser = asyncHandler(async(req , res) =>{
-    res.json({message : "Login the user"});
+const currentUser = asyncHandler(async(req , res) =>{
+    res.json({message : "Current user information"});
 
 });
 
