@@ -9,6 +9,6 @@ const userSchema = mongoose.Schema({
     email : {
         type : String , 
         required : [true , "PLease add the user email"],
-        unique
+        unique : 
     }
 })
