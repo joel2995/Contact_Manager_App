@@ -12,6 +12,15 @@ const userSchema = mongoose.Schema({
         unique : [true, "Email address already taken"],
     },
     password : {
-        
-    }
-})
+        type : String , 
+        required : [true , "PLease add the user password"],
+    },
+}, 
+{
+    timestamp : true , 
+},
+
+);
+
+
+module.exports = mongoose.model("User" , userSchema);
