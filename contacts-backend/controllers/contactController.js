@@ -68,9 +68,7 @@ const updateContact = asyncHandler(async(req , res) =>{
         throw new Error("User don't have permission to update other contacts");
     }
 
-    const updatedContact = await Contact.findByIdAndUpdate(req.params.id , req.body , 
-
-        {new : true});
+    const updatedContact = await Contact.findByIdAndUpdate(req.params.id , req.body , {new : true});
     res.status(200).json(updatedContact);
 });
 
